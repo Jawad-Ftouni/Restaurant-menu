@@ -120,11 +120,14 @@ const UpdateItem = () => {
           ))}
         </select>
         <div className="center">
-          <button type="submit">Update</button>
+          <button type="submit" className="btn btn-success">
+            Update
+          </button>
           <button
             onClick={() => {
               navigate("/Admin");
             }}
+            className="btn btn-warning"
           >
             cancel
           </button>

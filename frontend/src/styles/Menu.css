@@ -32,12 +32,14 @@
 
 .split {
   display: flex;
-  justify-content: stretch;
+  justify-content: space-between;
+
 }
 
 .headitem {
   background-color: #F4C95D;
   box-shadow: 10px 10px 5px;
+  border-radius: 10px;
 }
 
 /* MENU ITEM STYLING */
