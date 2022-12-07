@@ -60,7 +60,7 @@ export default function UpdateCategory() {
           type="file"
           id="image"
           className="form-control"
-          value={icon}
+          // value={icon}
           onChange={(e) => fileBrowseHandler(e)}
         />
         <div className="center">
